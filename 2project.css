@@ -1,34 +1,85 @@
-table{
-	word-spacing: 3px;
-	color: #f0a500;
-	font-size: 20px;
-}
 #ted:hover{
-	border: dotted #32e0c4; 
+	background-color: #810000;
 }
 #few:hover{
-	border: dotted #32e0c4; 
+	background-color: #810000;
 }
 #sit:hover{
-	border: dotted #32e0c4; 
+	background-color: #810000;
 }
 h1{
 	padding: 0px;
 	margin: 0px;
 	display: inline-block;
-	margin-left: 70px;
-	font-family:  "AFRICAN";
-	text-decoration: underline double #f6d743;
-	color:#fb7813;
+	margin-left: 120px;
+	font-family: "Avant Garde", "Avantgarde";
+	color: white;
+	font-style: italic;
 }
-#dew{
-	background-image: url("light.jpg");
+#tableH1{
+	background-image: url("E:/PRABHANJAN/My First Project/images/light.jpg");
 	background-position: center ;
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: absolute;
+	position: absolute; 
 	top: 0px;
 	left: 0px;
 	height: 100%;
 	width: 100%;
+}
+.mainDiv{
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	background-color: white;
+    height: 450px;
+    width: 500px;
+    border-radius: 15px 15px 15px 15px;
+    background: linear-gradient( to left , rgba(200,0,0,.1), rgba(200,0,0,1));
+}
+#header{
+	font-family: '"Lexend Deca", sans-serif';
+	color: #eeeeee;
+	text-decoration: none;
+	text-align: left;
+	font-size: 40px;
+}
+.input{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 50px;
+}
+button{
+	background-color: #c70039;
+	border-radius: 10px 10px 10px 10px;
+	width: 90px;
+	position: absolute;
+	top: 400px;
+	left: 380px;
+	padding: 12px 10px;
+	text-align: center;
+	color: white;
+}
+table{
+	word-spacing: 3px;
+	color: #f0a500;
+	font-size: 20px;
+	color: white;
+}
+input[type = 'text'] , input[type = 'date'] , select{
+	width: 300px;
+}
+input[type = 'text']:focus , input[type = 'date']:focus , select:focus{
+	background-color: #d8d3cd;
+}
+label{
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color:#ffd31d;
+  font-size: 20px;
 }
