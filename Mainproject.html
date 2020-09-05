@@ -2,12 +2,13 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="2project.css">
+	<script type="text/javascript" src="javascript.js"></script>
 	<title>
 		BOOK NOW
 	</title>
 </head>
 <body>
-	<div id="dew">
+	<div id="tableH1">
 <h1 align="left">AIRBNB</h1>
 	<table align="right">
 		<tr>
@@ -22,6 +23,40 @@
 			</td>
 		</tr>
 	</table>
+	</div>
+ <div class="mainDiv">
+	<div>
+	<h1 id="header">
+		<strong>BOOK NOW TO VISIT PLACES!</strong>
+    </h1>
+    </div>
+    <div class="input">
+	<label id="names"><b>DESTINATION :</b></label>
+	<input type="text" placeholder="Enter Destination" name="whereto" id="place">
+      
+	<label id="names"><b>CHECK IN :</b></label>
+	<input type="date" name="travel" id="check1">
+   
+	<label id="names"><b>CHECK OUT :</b></label>
+	<input type="date" name="return" id="check2">	
+	
+    <label id="names"><b>TRAVELERS :</b></label>
+	<select id="choose" name="number">
+<option value="1">
+	1 PERSON
+</option>
+<option value="2">
+	2 PERSONS
+</option>
+<option value="3">
+	3 PERSONS
+</option>
+<option>
+	MORE THAN 3 (FAMILY)
+</option>
+</select>
+<button onclick="giveinput()"><b>SEARCH</b></button>
+</div>
 </div>
 </body>
 </html>
