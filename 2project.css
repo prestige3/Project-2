@@ -17,7 +17,7 @@ h1{
 	font-style: italic;
 }
 #tableH1{
-	background-image: url("light.jpg");
+	background-image: url("E:/PRABHANJAN/My First Project/images/light.jpg");
 	background-position: center ;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -65,7 +65,9 @@ table{
 	word-spacing: 3px;
 	color: #f0a500;
 	font-size: 20px;
-	color: white;
+	position: fixed;
+	top: 0px;
+	left: 1070px;
 }
 input[type = 'text'] , input[type = 'date'] , select{
 	width: 300px;
@@ -82,4 +84,39 @@ label{
   margin-bottom: 10px;
   color:#ffd31d;
   font-size: 20px;
+}
+.picture , .nextpic , .palace , .taj , .riverside , .farmhouse{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 350px;
+}
+.nextpic , .farmhouse{
+	padding-left: 300px;
+}
+.palace , .riverside , .farmhouse{
+	padding-top: 80px;
+}
+.taj {
+	padding-left: 300px;
+	padding-top: 50px;
+}
+.section{
+	position: relative;
+	top: 700px;
+	left: 0px;
+}
+#head{
+	color: #393b44;
+	font-size: 40px;
+	text-decoration: underline;
+}
+#img2, #img3 , #img4 , #img5 , #img6 , #img7{
+	width: 100%;
+}
+.table2{
+  position: relative;
+  top: 110px;
+  left: 150px;
+  color: #1a1a2e;
 }
