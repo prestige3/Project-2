@@ -7,17 +7,22 @@
 #sit:hover{
 	background-color: #810000;
 }
-h1{
+#ted , #few{
+	padding-right: 13px;
+}
+#first{
 	padding: 0px;
 	margin: 0px;
 	display: inline-block;
-	margin-left: 120px;
 	font-family: "Avant Garde", "Avantgarde";
 	color: white;
 	font-style: italic;
+	position: fixed;
+	top: 10px;
+	left: 120px;
 }
 #tableH1{
-	background-image: url("light.jpg");
+	background-image: url("E:/PRABHANJAN/My First Project/images/light.jpg");
 	background-position: center ;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -28,46 +33,49 @@ h1{
 	width: 100%;
 }
 .mainDiv{
+	padding-left: 10px;
 	position: absolute;
 	top: 150px;
 	left: 200px;
-	background-color: white;
     height: 450px;
     width: 500px;
     border-radius: 15px 15px 15px 15px;
     background: linear-gradient( to left , rgba(200,0,0,.1), rgba(200,0,0,1));
 }
 #header{
-	font-family: '"Lexend Deca", sans-serif';
+	font-family: 'Kumbh Sans', sans-serif;
 	color: #eeeeee;
 	text-decoration: none;
-	text-align: left;
-	font-size: 40px;
+	text-align: center;
+	font-size: 38px;
 }
 .input{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 30px 50px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-right: 50px;
+	padding-left: 40px;
 }
 button{
 	background-color: #c70039;
 	border-radius: 10px 10px 10px 10px;
 	width: 90px;
-	position: absolute;
-	top: 400px;
-	left: 380px;
+	justify-content: flex-end;
+	margin-top: 10px;
 	padding: 12px 10px;
 	text-align: center;
 	color: white;
 }
-table{
+#table{
 	word-spacing: 3px;
 	color: #f0a500;
 	font-size: 20px;
 	position: fixed;
 	top: 0px;
-	left: 1070px;
+	right: 0px;
+	z-index: 1000;
 }
 input[type = 'text'] , input[type = 'date'] , select{
 	width: 300px;
@@ -80,7 +88,7 @@ label{
   flex-direction: row;
   float: left;
   width: 400px;
-  line-height: 26px;
+  line-height: 30px;
   margin-bottom: 10px;
   color:#ffd31d;
   font-size: 20px;
@@ -101,10 +109,12 @@ label{
 	padding-left: 300px;
 	padding-top: 50px;
 }
-.section{
+#section{
 	position: relative;
 	top: 700px;
 	left: 0px;
+	visibility: hidden;
+	opacity: 0;
 }
 #head{
 	color: #393b44;
