@@ -11,4 +11,13 @@
 
     var dropdown = document.getElementById('choose').value;
     alert("TRAVELERS : " + dropdown);
+
+    changedisplay();
+}
+function changedisplay(){
+  document.getElementById("section").style.visibility ='visible'; 
+  document.getElementById("section").style.opacity ='1'; 
+  document.getElementById("section").style.transitionTimingFunction = "linear";
+  document.getElementById("section").style.transitionProperty = "visibility,opacity"; 
+  document.getElementById("section").style.transitionDuration = "3s";
 }
